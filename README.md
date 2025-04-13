@@ -79,20 +79,38 @@
 
 
 ```
-Команды в Github
+    # Become root user
+    sudo -s
 
+    # Add the Zabbix repo
+    wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
+    dpkg -i zabbix-release_latest_7.2+ubuntu24.04_all.deb
+    apt update
+
+    # Install Zabbix agent
+    apt install zabbix-agent
+    
+    # Zabbix agent start and enable
+    systemctl restart zabbix-agent
+    systemctl enable zabbix-agent 
+
+    # Add the correct server IP
+
+    sudo sed -i 's/#Server=127.0.0.1/Server=172.16.185.145/g' /etc/zabbix/zabbix_agentd.conf
+    sudo sed -i 's/#ServerActive=127.0.0.1/Server=172.16.185.145:10051/g' /etc/zabbix/zabbix_agentd.conf
+    sudo systemctl restart zabbix-agent.service
+
+    # Check the Zabbix Agent log
+    tail -f /var/log/zabbix/zabbix_agentd.log
 ```
-
 
 Скриншоты:
 
-
-![Screen_2_1]()
-![Screen_2_2]()
-![Screen_2_3]()
-![Screen_2_4]()
-![Screen_2_5]()
-![Screen_2_6]()
+![Screen2_1](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_1.png)
+![Screen2_2](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_2.png)
+![Screen2_3](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_3.png)
+![Screen2_4](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_4.png)
+![Screen2_5](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_5.png)
 
 ---
 
