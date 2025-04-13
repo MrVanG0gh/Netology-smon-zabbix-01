@@ -51,7 +51,7 @@
 Скриншоты:
 
 
-![Screen_1_1](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen1_1.png)
+![Screen1](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen1.png)
 
 ---
 
