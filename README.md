@@ -110,7 +110,6 @@
 ![Screen2_2](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_2.png)
 ![Screen2_3](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_3.png)
 ![Screen2_4](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_4.png)
-![Screen2_5](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen2_5.png)
 
 ---
 
