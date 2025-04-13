@@ -123,14 +123,7 @@
 
 ### Решение 3
 
-
-```
-Команды в Github
-
-```
-
-
 Скриншоты:
 
 
-![Screen_3_1]()
+![Screen3](https://github.com/MrVanG0gh/Netology-smon-zabbix-01/blob/main/pics/Screen3.png)
